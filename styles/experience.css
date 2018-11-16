@@ -650,8 +650,10 @@ section
 }
 .main_content_scroll
 {
-	margin-top: 134px;
+	/*margin-top: 134px;*/
+	margin-top: 80px;
 	max-height: calc(100% - 183px - 134px);
+	/*max-height: calc(100% - 183px);*/
 	padding-right: 100px;
 }
 .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail
