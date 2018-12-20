@@ -641,7 +641,7 @@ section
 }
 .main_title
 {
-	font-size: 72px;
+	font-size: 65px;
 	font-weight: 800;
 	color: #100f3a;
 	line-height: 0.75;
@@ -653,7 +653,7 @@ section
 	/*margin-top: 134px;*/
 	margin-top: 80px;
 	max-height: calc(100% - 183px - 134px);
-	/*max-height: calc(100% - 183px);*/
+	/*maFx-height: calc(100% - 183px);*/
 	padding-right: 100px;
 }
 .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail
