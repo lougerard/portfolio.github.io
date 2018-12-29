@@ -361,6 +361,7 @@ $(document).ready(function() {
         });
     });
 
+
     $('#myTable').DataTable({
         columnDefs: [
             {
@@ -423,4 +424,3 @@ $(document).ready(function() {
 
 
 });
-
