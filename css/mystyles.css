@@ -103,3 +103,34 @@ div.desc {
 .ui-dialog .ui-dialog-content {
     flex: 1;
 }
+.ui-widget-header {
+    background: #BD5D38;
+    border: 0;
+}
+.ui-dialog-buttonpane{
+    background: #BD5D38;
+}
+.ui-dialog-titlebar-close{
+    display:none;
+}
+.ui-tabs{
+    border: none;
+}
+.ui-tabs-nav{
+    /*background: #c86e38;*/
+    padding-left: 0px;
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.ui-tabs-panel{
+    background: transparent;
+    border-width: 0px 1px 1px 1px;
+}
+#tabs_1, #tabs_2, #tabs_3, #tabs_4, #tabs_5, #tabs_6, #tabs_7, #tabs_8, #tabs_9, #tabs_10, #tabs_11, #tabs_12, #tabs_13, #tabs_14, #tabs_15, #tabs_16, #tabs_17, #tabs_18, #tabs_19{
+    padding: 0px;
+    background: none;
+    border-width: 0px;
+}

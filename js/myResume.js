@@ -26,6 +26,7 @@ $(document).ready(function() {
             dragable: false,
             buttons: [
                 {
+                    backgroundColor : 'black',
                     text: "Close",
                     click: function() {
                         $( this ).dialog( "close" );
@@ -33,6 +34,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_1" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
 
@@ -53,6 +58,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_2" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_3').click(function(){
         $("#certif_3").dialog({
@@ -70,6 +79,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_3" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_4').click(function(){
@@ -89,6 +102,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_4" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_5').click(function(){
         $("#certif_5").dialog({
@@ -106,6 +123,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_5" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_6').click(function(){
@@ -125,6 +146,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_6" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_7').click(function(){
         $("#certif_7").dialog({
@@ -142,6 +167,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_7" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_8').click(function(){
@@ -161,6 +190,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_8" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_9').click(function(){
         $("#certif_9").dialog({
@@ -178,6 +211,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_9" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_10').click(function(){
@@ -197,6 +234,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_10" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_11').click(function(){
         $("#certif_11").dialog({
@@ -214,6 +255,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_11" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_12').click(function(){
@@ -233,6 +278,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_12" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_13').click(function(){
         $("#certif_13").dialog({
@@ -250,6 +299,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_13" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_14').click(function(){
@@ -269,6 +322,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_14" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_15').click(function(){
         $("#certif_15").dialog({
@@ -286,6 +343,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_15" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_16').click(function(){
@@ -305,6 +366,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_16" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_17').click(function(){
         $("#certif_17").dialog({
@@ -322,6 +387,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_17" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_18').click(function(){
@@ -341,6 +410,10 @@ $(document).ready(function() {
                 }
             ]
         });
+        $( "#tabs_18" ).tabs({
+            active: 0,
+            heightStyle: "fill"
+        });
     });
     $('#proof_19').click(function(){
         $("#certif_19").dialog({
@@ -358,6 +431,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs_19" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
 
