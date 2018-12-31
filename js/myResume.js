@@ -2,8 +2,8 @@ $(document).ready(function() {
     $('#cv').click(function(){
         $("#dialog").dialog({
             modal: true,
-            width: 850,
-            height: 650,
+            width: 900,
+            height: 800,
             resizable: false,
             dragable: false,
             buttons: [
@@ -15,6 +15,10 @@ $(document).ready(function() {
 
                 }
             ]
+        });
+        $( "#tabs" ).tabs({
+            active: 0,
+            heightStyle: "fill"
         });
     });
     $('#proof_1').click(function(){
