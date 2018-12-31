@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $( function() {
+        $( document ).tooltip();
+    } );
     $('#cv').click(function(){
         $("#dialog").dialog({
             modal: true,
@@ -21,7 +24,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_1').click(function(){
+    $('.proof_1').click(function(){
         $("#certif_1").dialog({
             modal: true,
             width: 1000,
@@ -45,7 +48,7 @@ $(document).ready(function() {
         });
     });
 
-    $('#proof_2').click(function(){
+    $('.proof_2').click(function(){
         $("#certif_2").dialog({
             modal: true,
             width: 1000,
@@ -67,7 +70,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_3').click(function(){
+    $('.proof_3').click(function(){
         $("#certif_3").dialog({
             modal: true,
             width: 1000,
@@ -89,7 +92,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_4').click(function(){
+    $('.proof_4').click(function(){
         $("#certif_4").dialog({
             modal: true,
             width: 1000,
@@ -111,7 +114,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_5').click(function(){
+    $('.proof_5').click(function(){
         $("#certif_5").dialog({
             modal: true,
             width: 1000,
@@ -133,7 +136,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_6').click(function(){
+    $('.proof_6').click(function(){
         $("#certif_6").dialog({
             modal: true,
             width: 1000,
@@ -155,7 +158,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_7').click(function(){
+    $('.proof_7').click(function(){
         $("#certif_7").dialog({
             modal: true,
             width: 1000,
@@ -177,7 +180,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_8').click(function(){
+    $('.proof_8').click(function(){
         $("#certif_8").dialog({
             modal: true,
             width: 1000,
@@ -199,7 +202,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_9').click(function(){
+    $('.proof_9').click(function(){
         $("#certif_9").dialog({
             modal: true,
             width: 1000,
@@ -221,7 +224,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_10').click(function(){
+    $('.proof_10').click(function(){
         $("#certif_10").dialog({
             modal: true,
             width: 1000,
@@ -243,7 +246,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_11').click(function(){
+    $('.proof_11').click(function(){
         $("#certif_11").dialog({
             modal: true,
             width: 1000,
@@ -265,7 +268,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_12').click(function(){
+    $('.proof_12').click(function(){
         $("#certif_12").dialog({
             modal: true,
             width: 1000,
@@ -287,7 +290,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_13').click(function(){
+    $('.proof_13').click(function(){
         $("#certif_13").dialog({
             modal: true,
             width: 1000,
@@ -309,7 +312,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_14').click(function(){
+    $('.proof_14').click(function(){
         $("#certif_14").dialog({
             modal: true,
             width: 1000,
@@ -331,7 +334,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_15').click(function(){
+    $('.proof_15').click(function(){
         $("#certif_15").dialog({
             modal: true,
             width: 1000,
@@ -353,7 +356,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_16').click(function(){
+    $('.proof_16').click(function(){
         $("#certif_16").dialog({
             modal: true,
             width: 1000,
@@ -375,7 +378,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_17').click(function(){
+    $('.proof_17').click(function(){
         $("#certif_17").dialog({
             modal: true,
             width: 1000,
@@ -397,7 +400,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_18').click(function(){
+    $('.proof_18').click(function(){
         $("#certif_18").dialog({
             modal: true,
             width: 1000,
@@ -419,7 +422,7 @@ $(document).ready(function() {
             heightStyle: "fill"
         });
     });
-    $('#proof_19').click(function(){
+    $('.proof_19').click(function(){
         $("#certif_19").dialog({
             modal: true,
             width: 1000,
@@ -444,6 +447,7 @@ $(document).ready(function() {
 
 
     $('#myTable').DataTable({
+        order: [[ 1, "asc" ]],
         columnDefs: [
             {
                 targets: -1,

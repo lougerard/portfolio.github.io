@@ -42,9 +42,12 @@
     margin-left: 1rem;
 }
 .proof{
+     cursor: pointer;
+     width:20px;
+     height:20px;
+ }
+.proof_1, .proof_2, .proof_3, .proof_4, .proof_5, .proof_6, .proof_7, .proof_8, .proof_9, .proof_10, .proof_11, .proof_12, .proof_13, .proof_14, .proof_15, .proof_16, .proof_17, .proof_18, .proof_19{
     cursor: pointer;
-    width:20px;
-    height:20px;
 }
 .responsive {
     padding: 0 6px;
@@ -136,4 +139,13 @@ div.desc {
 }
 .liTAB .ui-state-active {
     background: #BD5D38 !important;
+}
+
+myP {
+    display: block;
+    margin-bottom: 10px;
+}
+
+a.hyperlink {
+    color: blue;
 }
