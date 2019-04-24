@@ -8,7 +8,7 @@ $(document).ready(function() {
             width: 900,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -30,7 +30,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     backgroundColor : 'black',
@@ -54,7 +54,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -76,7 +76,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -98,7 +98,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -120,7 +120,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -142,7 +142,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -164,7 +164,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -186,7 +186,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -208,7 +208,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -230,7 +230,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -252,7 +252,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -274,7 +274,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -296,7 +296,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -318,7 +318,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -340,7 +340,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -362,7 +362,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -384,7 +384,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -406,7 +406,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
@@ -428,7 +428,7 @@ $(document).ready(function() {
             width: 1000,
             height: 800,
             resizable: false,
-            dragable: false,
+            draggable: false,
             buttons: [
                 {
                     text: "Close",
