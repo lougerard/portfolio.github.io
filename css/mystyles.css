@@ -41,6 +41,10 @@
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
+.skill{
+    width:min-content;
+}
 .proof{
      cursor: pointer;
      width:20px;
