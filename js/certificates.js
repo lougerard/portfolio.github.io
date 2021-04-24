@@ -1,3 +1,4 @@
+//https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
