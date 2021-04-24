@@ -46,3 +46,8 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+/* certificats viewer pdf full size*/
+$('.content').click(function(){
+  console.log("click yes");
+});

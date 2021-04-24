@@ -506,5 +506,9 @@ $(document).ready(function() {
         }
 
     });
+
+    $('.zoomPDF').click(function(){
+        iframeZoom.show();
+    });
     
 });
