@@ -506,6 +506,5 @@ $(document).ready(function() {
         }
 
     });
-
-
+    
 });
