@@ -189,7 +189,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Student</h3>
               <div class="subheading mb-3">CHU-UCL Mont-Godinne, BE</div>
-              <p> Internship at the University Hospital CHU-UCL Mont-Godinne. Development of a medical application in Java and an Artificial Intelligence in Python for this purpose.</p>
+              <p> Internship at the University Hospital CHU-UCL Mont-Godinne. Development of a medical application in Java and an Artificial Intelligence in Python for the liver segmentation.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">February 11, 2019 - May 17, 2019</span>
@@ -429,22 +429,37 @@
               <button class="btn" onclick="filterSelection('Others')"> Others</button>
             </div>
 
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <!--<img class="modal-content" id="img01">-->
+              <embed class="modal-content" src="certificats/certificat_louis-gerard_gerez-votre-code-avec-git-et-github.pdf#toolbar=0&navpanes=0&scrollbar=0" width=100% height=60% type='application/pdf'/>
+              <div id="caption"></div>
+            </div>
+            <!-- The Modal 2-->
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <!--<img class="modal-content" id="img01">-->
+              <embed class="modal-content" src="certificats/certificat_louis-gerard_apprenez-a-naviguer-en-securite-sur-internet.pdf" width=100% height=60% type='application/pdf'/>
+              <div id="caption"></div>
+            </div>
+
             <!-- Portfolio Gallery Grid -->
             <div class="row">
               <div class="column OpenClassrooms">
-                <div class="content">
-                  <embed class="zoomPDF" src="certificats/certificat_louis-gerard_gerez-votre-code-avec-git-et-github.pdf#toolbar=0&navpanes=0&scrollbar=0" width=100% height=100% type='application/pdf'/>
+                <div id="myImg" class="content">
+                  <embed class="zoomPDF" src="certificats/certificat_louis-gerard_gerez-votre-code-avec-git-et-github.pdf#toolbar=0&navpanes=0&scrollbar=0" width=100% height=auto type='application/pdf'/>
                   <h4 class="cursorCertsName"> Gerez votre code avec git et Github</h4>
                 </div>
               </div>
               <div class="column OpenClassrooms">
-                <div class="content">
+                <div id="myImg" class="content">
                   <embed class="zoomPDF" src="certificats/certificat_louis-gerard_apprenez-a-naviguer-en-securite-sur-internet.pdf" width=100% height=100% type='application/pdf'/>
                   <h4 class="cursorCertsName">Apprenez a naviguer en sécurite sur internet</h4>
                 </div>
               </div>
               <div class="column OpenClassrooms">
-                <div class="content">
+                <div id="myImg" class="content">
                   <embed class="zoomPDF" src="certificats/certificat_louis-gerard_decouvrez-le-monde-des-systemes-dinformation.pdf" width=100% height=100% type='application/pdf'/>
                   <h4 class="cursorCertsName">Découvrez le monde des systèmes d'informations</h4>
                 </div>
